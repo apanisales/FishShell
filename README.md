@@ -18,7 +18,7 @@ A custom version of a Linux command line shell.
 Note: If the current working directory is the user’s home directory, then the entire path is replaced with ~.
 
 Example shell prompt:
-'''
+'''c
 [0|apanisales@apanisales-pi:~]$
 
 '''
