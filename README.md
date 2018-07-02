@@ -10,10 +10,10 @@ A custom version of a Linux command line shell.
 
 * Handle commands piped in from stdin.
 
-* _The shell prompt includes:_
+* The shell prompt includes:
     * Command number (starting from 0)
     * User name and host name: (username)@(hostname) followed by :
-    * The current working directory
+    * _The current working directory_
     * A $ sign followed by a space
     * Note: If the current working directory is the user’s home directory, then the entire path is replaced with ~
 
