@@ -18,10 +18,10 @@ A custom version of a Linux command line shell.
 Note: If the current working directory is the user’s home directory, then the entire path is replaced with ~.
 
 Example shell prompt:
-'''c
+```c
 [0|apanisales@apanisales-pi:~]$
 
-'''
+```
 
 ## Built-In Commands
 * **cd**: changes the current working directory. cd without arguments returns to the user’s home directory.
