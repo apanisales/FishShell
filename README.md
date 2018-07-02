@@ -14,6 +14,7 @@ A custom version of a Linux command line shell.
     * Command number (starting from 0)
     * User name and host name: (username)@(hostname) followed by:
         * *The current working directory*
+        * *The current working directory*
         * A $ sign followed by a space
         * Note: If the current working directory is the user’s home directory, then the entire path is replaced with ~
 
