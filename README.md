@@ -30,4 +30,4 @@ Example shell prompt:
 * **!** (history execution): entering !39 will re-run command 39, for instance. !ls will re-run the most recent command prefixed with ls and !! re-runs the last command that was entered.
 * **exit**: exits the shell
 
-To run the shell, first run the Makefile, then enter './fish'
+To run the shell, first run the Makefile, then enter "./fish"
