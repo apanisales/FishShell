@@ -23,13 +23,6 @@ Example shell prompt:
 
 ```
 
-## Built-In Commands
-* **cd**: changes the current working directory. cd without arguments returns to the user’s home directory.
-* **#** (comments): strings prefixed with # will be ignored by the shell
-* **history**: prints the last 100 commands entered with their command numbers
-* **!** (history execution): entering !39 will re-run command 39, for instance. !ls will re-run the most recent command prefixed with ls and !! re-runs the last command that was entered.
-* **exit**: exits the shell
-
 Example usage:
 ```c
 # Normal usage:
@@ -45,3 +38,10 @@ EOM
 # Assuming commands.txt contains shell commands:
 $ ./fish < commands.txt
 ```
+
+## Built-In Commands
+* **cd**: changes the current working directory. cd without arguments returns to the user’s home directory.
+* **#** (comments): strings prefixed with # will be ignored by the shell
+* **history**: prints the last 100 commands entered with their command numbers
+* **!** (history execution): entering !39 will re-run command 39, for instance. !ls will re-run the most recent command prefixed with ls and !! re-runs the last command that was entered.
+* **exit**: exits the shell
