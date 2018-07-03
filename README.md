@@ -42,6 +42,6 @@ echo "This command is from stdin"
 exit
 EOM
 
-# Assuming commands.txt contains shell commands):
+# Assuming commands.txt contains shell commands:
 $ ./fish < commands.txt
 ```
