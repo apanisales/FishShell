@@ -31,7 +31,7 @@ Example shell prompt:
 * **exit**: exits the shell
 
 Example usage:
-```
+```c
 # Normal usage:
 $ ./fish
 
