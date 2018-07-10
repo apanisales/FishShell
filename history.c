@@ -39,12 +39,12 @@ struct passwd * user_data;
 void retokenize(char line[], char *** old_tokens) {
 	char *token = strtok(line, " \t\n");
 	char *tokens[PATH_MAX] = { 0 };
-    int index = 0;
+    	int index = 0;
 	while (token != NULL) {
-        if (strstr(token, "#") != NULL) {
-            break;
-        }
-        tokens[index++] = token;
+		if (strstr(token, "#") != NULL) {
+		    break;
+		}
+		tokens[index++] = token;
 		token = strtok(NULL, " \t\n");
 	}
 	tokens[index] = (char *) 0;
