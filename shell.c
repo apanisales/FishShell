@@ -123,8 +123,9 @@ int main(void) {
     	char *tokens[PATH_MAX];
     	int i = 0;
     	while (token != NULL) {
-            if (strstr(token, "#") != NULL)
+            if (strstr(token, "#") != NULL) {
                 break;
+            }
             tokens[i++] = token;
     		token = strtok(NULL, " \t\n");
     	}
