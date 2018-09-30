@@ -4,7 +4,7 @@ A custom version of a Linux command line shell.
 
 * Able to run built-in commands as well as commands in both the current directory and those in the PATH environment variable.
 
-* Tracks how long each process runs and make this information available in the history.
+* Tracks how long each process runs and makes this information available in the history.
 
 * Supports file output redirection and pipe redirection.
 
